@@ -55,7 +55,7 @@ async def start_sdk_pipeline():
     # --------------------------------------------------------------------------
     mock_env = {
         "LIVE_GPU_ENDPOINT_URL": "https://api.vast.ai/v1/chat/completions",
-        "VAST_AI_API_KEY": "vst_mock_production_token_7f9382bca94"
+        "api_key": "vst_mock_production_token_7f9382bca94"
     }
     
     async def mock_aiter_lines():
