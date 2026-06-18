@@ -29,6 +29,5 @@ jobs:
       # uv build automatically generates clean .tar.gz and .whl files into the dist/ folder
       run: uv build
 
-    - name: Publish package artifacts to PyPI
-      # This official action handles the uploading completely securely using OpenID Connect (OIDC)
+    - name: Publish to PyPI
       uses: pypa/gh-action-pypi-publish@release/v1
