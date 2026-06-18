@@ -1,0 +1,33 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "open-vllm-sdk"
+version = "1.0.0"
+description = "The official library for vLLM client network and preflight validation engine."
+readme = "README.md"
+requires-python = ">=3.12"
+license = { text = "MIT" }
+authors = [
+    { name = "Aravindh Annadurai", email = "aravindhvignesh58@gmail.com" }
+]
+keywords = ["vllm", "resilience", "connection-pooling", "platform-engineering", "llmops"]
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.12",
+    "Topic :: Software Development :: Libraries :: Python Modules"
+]
+dependencies = [
+    "fastapi>=0.136.3",
+    "httpx>=0.28.1",
+    "pytest>=9.0.3",
+    "python-dotenv>=1.2.2",
+]
+
+[tool.setuptools.packages.find]
+where = ["src"]
