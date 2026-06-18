@@ -1,7 +1,10 @@
 # open-vllm-sdk
 
 
-[![PyPI version]](https://pypi.org/project/open-vllm-sdk/)
+[![PyPI version]](https://pypi.org/project/open-vllm/)
+[![PyPI version](https://img.shields.io/pypi/v/open-vllm.svg)](https://pypi.org/project/open-vllm/)
+[![Supported Python Versions](https://img.shields.io/pypi/pyversions/open-vllm.svg)](https://pypi.org/project/open-vllm/)
+[![Repository](https://img.shields.io/badge/Repository-GitHub-blue.svg)](https://github.com/aravindhgowham/vllm-sdk)
 
 A high-performance, asynchronous resilience gateway client built to connect distributed application services to remote GPU infrastructure safely and efficiently. Will offers only asunchronous clients powerd by [https](https://github.com/encode/httpx)
 

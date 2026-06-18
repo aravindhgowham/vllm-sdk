@@ -29,5 +29,10 @@ dependencies = [
     "python-dotenv>=1.2.2",
 ]
 
+[project.urls]
+Homepage = "https://github.com/aravindhgowham/vllm-sdk"
+Repository = "https://github.com/aravindhgowham/vllm-sdk"
+"Bug Tracker" = "https://github.com/aravindhgowham/vllm-sdk/issues"
+
 [tool.setuptools.packages.find]
 where = ["src"]
