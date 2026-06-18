@@ -31,4 +31,4 @@ jobs:
 
     - name: Publish package artifacts to PyPI
       # This official action handles the uploading completely securely using OpenID Connect (OIDC)
-      uses: pypa/github-action-pypa-publish@release/v1
+      uses: pypa/gh-action-pypi-publish@release/v1
