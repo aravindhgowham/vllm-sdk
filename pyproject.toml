@@ -4,7 +4,7 @@ build-backend = "setuptools.build_meta"
 
 [project]
 name = "open-vllm"
-version = "1.0.1"
+version = "1.0.2"
 description = "The official library for vLLM client network and preflight validation engine."
 readme = "README.md"
 requires-python = ">=3.12"
